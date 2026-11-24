@@ -1,0 +1,63 @@
+{
+  "creators": [
+    {
+      "name": "Hughes, Tyler B.",
+      "orcid": "0000-0001-6221-9014"
+    }
+  ],
+  "title": "Minimal k-Prolific Permutations for Every Odd k: Exact Uniqueness via Lee-Sphere Tilings",
+  "description": "Unconditional Lean 4 + Mathlib formalization settling Conjecture 5.1 of Bevan, Homberger, and Tenner (JCTA 153, 2018) for every odd k = 2m - 1 >= 1 in its taxicab-breadth formulation, together with 2D radius-m Lee-sphere tiling rigidity and the even-k factorial lower bound 2 * (k/2)!. Companion page, dated preprint (2026-11-23-v1), verification archive, and prior-work search logs are published at https://mathdiscoveries.org/results/minimal-prolific-permutations. Generated and checked by AI research agents built and directed by Tyler B. Hughes. No human mathematician has yet refereed the proof.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "apache-2.0",
+  "language": "eng",
+  "keywords": [
+    "Lean 4",
+    "formalized mathematics",
+    "theorem proving",
+    "combinatorics",
+    "prolific permutations",
+    "Lee spheres",
+    "math.CO",
+    "MSC 2020: 05A05",
+    "MSC 2020: 52C20"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://mathdiscoveries.org/results/minimal-prolific-permutations",
+      "relation": "isSupplementTo",
+      "resource_type": "other"
+    },
+    {
+      "identifier": "https://doi.org/10.1016/j.jcta.2017.08.006",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://doi.org/10.1016/j.jcta.2013.06.006",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://doi.org/10.1287/opre.1060.0317",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://doi.org/10.1016/j.jcta.2018.09.002",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://doi.org/10.1109/tit.2017.2786675",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://arxiv.org/abs/2610.34805",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "notes": "Unrefereed. Generated and checked by AI research agents built and directed by Tyler B. Hughes."
+}

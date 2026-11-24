@@ -1,0 +1,17 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "MinimalProlificChallenge.odd_minimal_prolific_classification",
+    "MinimalProlificChallenge.odd_minimal_prolific_card_eq_two",
+    "MinimalProlificChallenge.odd_minimal_prolific_dihedral_orbit",
+    "MinimalProlificChallenge.lee_tiling_classification",
+    "MinimalProlificChallenge.even_strip_lower_bound"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

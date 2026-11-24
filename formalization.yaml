@@ -1,0 +1,208 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+
+project:
+  name: "Minimal k-Prolific Permutations for Every Odd k: Exact Uniqueness via Lee-Sphere Tilings"
+  description: >-
+    Unconditional Lean 4 + Mathlib formalization (zero sorry, zero
+    native_decide, standard axioms only) settling Conjecture 5.1 of Bevan,
+    Homberger, and Tenner (JCTA 153, 2018) for every odd k = 2m - 1 >= 1
+    in its taxicab-breadth formulation: at minimal size n = 2m^2 + 2m and
+    modulus N = 2m^2 + 2m + 1, a permutation w of Fin n has taxicab breadth at
+    least d = 2m + 1 iff w(i) + 1 = +(2m + 1)(i + 1) (mod N) or
+    w(i) + 1 = -(2m + 1)(i + 1) (mod N) for all i, giving exactly 2 valid
+    permutations forming a single D_4 symmetry orbit. Also formalizes the 2D
+    radius-m Lee-sphere tiling classification (every tiling of Z^2 containing
+    (0, 0) equals LambdaPlus m or LambdaMinus m) and the even-k factorial lower
+    bound 2 * (r - 1)! = 2 * (k/2)! at n = 2r^2 - 1, d = 2r for every r >= 2.
+    Equivalence between taxicab breadth >= k + 2 and k-prolific permutations
+    (plus minimal size m(k)) is cited from Bevan, Homberger, and Tenner (2018,
+    Theorem 2.25 and Corollary 4.3). Companion page, dated preprint
+    (2026-11-23-v1), verification archive, and prior-work search logs are
+    published at
+    https://mathdiscoveries.org/results/minimal-prolific-permutations.
+    Generated and checked by AI research agents built and directed by Tyler B.
+    Hughes. No human mathematician has yet refereed the proof.
+  authors:
+    - "Tyler B. Hughes"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Tyler B. Hughes"
+
+classification:
+  arxiv: ["math.CO"]
+  msc2020: ["05A05", "52C20"]
+
+sources:
+  - title: "Minimal k-Prolific Permutations for Every Odd k: Exact Uniqueness via Lee-Sphere Tilings"
+    authors:
+      - "Tyler B. Hughes"
+    id: "https://mathdiscoveries.org/results/minimal-prolific-permutations"
+    type: original-proof
+    location: "Companion page and dated preprint (2026-11-23-v1) at https://mathdiscoveries.org/results/minimal-prolific-permutations"
+    relationship: other
+    author_endorsement: participated
+    note: >-
+      Discovered, written, and formalized in Lean 4 + Mathlib by AI research
+      agents built and directed by Tyler B. Hughes. Three independent logged
+      prior-work searches (253 queries across arXiv, Google Scholar, CORE,
+      OEIS A074148/A322481, zbMATH, OpenAlex, Semantic Scholar, Math Stack
+      Exchange, and MathOverflow; 72 candidates evaluated) found no prior proof
+      of Conjecture 5.1 for odd k. Golomb and Welch (1970), Miller (2009),
+      direct Scholar cited-by traversal, MathSciNet, doctoral theses, and
+      non-English literature remain unread/unsearched. No human mathematician
+      has yet refereed the proof.
+  - title: "Prolific permutations and permuted packings: Downsets containing many large patterns"
+    authors:
+      - "David Bevan"
+      - "Cheyne Homberger"
+      - "Bridget Eileen Tenner"
+    id: "https://doi.org/10.1016/j.jcta.2017.08.006"
+    type: paper
+    location: "Journal of Combinatorial Theory, Series A 153 (2018), 98-121 (arXiv:1608.06931v3), Theorem 2.25, Corollary 4.3, and Conjecture 5.1"
+    relationship: background
+    note: >-
+      Establishes that a permutation is k-prolific iff its plot has taxicab
+      breadth >= k + 2 (Theorem 2.25), determines minimal size m(k) =
+      ceil(k^2/2 + 2k + 1) (Theorem 3.4, Corollary 4.3), constructs the modular
+      permutations sigma_k, and poses Conjecture 5.1 (uniqueness up to symmetry
+      for odd k).
+  - title: "Permutations all of whose patterns of a given length are distinct"
+    authors:
+      - "Peter Hegarty"
+    id: "https://doi.org/10.1016/j.jcta.2013.06.006"
+    type: paper
+    location: "Journal of Combinatorial Theory, Series A 120(7) (2013), 1663-1671 (arXiv:1206.0966v2)"
+    relationship: background
+    note: "Equivalent k-separators formulation and qualitative tilted-checkerboard conjecture without uniqueness proof."
+  - title: "Maximin Latin Hypercube Designs in Two Dimensions"
+    authors:
+      - "Edwin R. van Dam"
+      - "Bart Husslage"
+      - "Dick den Hertog"
+      - "Hans Melissen"
+    id: "https://doi.org/10.1287/opre.1060.0317"
+    type: paper
+    location: "Operations Research 55(1) (2007), 158-169, Proposition 2"
+    relationship: background
+    note: "Earlier proof of the minimal size m(k) in two-dimensional L_1-maximin Latin hypercube designs."
+  - title: "The minimum Manhattan distance and minimum jump of permutations"
+    authors:
+      - "Simon R. Blackburn"
+      - "Cheyne Homberger"
+      - "Peter Winkler"
+    id: "https://doi.org/10.1016/j.jcta.2018.09.002"
+    type: paper
+    location: "Journal of Combinatorial Theory, Series A 161 (2019), 364-386 (arXiv:1706.01557)"
+    relationship: background
+    note: "Related breadth and Manhattan-distance results resolving a separate conjecture of Bevan, Homberger, and Tenner (2018)."
+  - title: "50 Years of the Golomb-Welch Conjecture"
+    authors:
+      - "Peter Horak"
+      - "Dongryul Kim"
+    id: "https://doi.org/10.1109/tit.2017.2786675"
+    type: paper
+    location: "IEEE Transactions on Information Theory 64(4) (2018), 3048-3061 (arXiv:1706.03589)"
+    relationship: background
+    note: "Survey of Lee-sphere tilings and Golomb-Welch packing rigidity."
+  - title: "On the existence of complete coverings of Lee spheres"
+    authors:
+      - "J. Zhang"
+      - "Y. Zhou"
+    id: "https://arxiv.org/abs/2610.34805"
+    type: paper
+    location: "arXiv:2610.34805 (2026), Theorem III.1"
+    relationship: background
+    note: >-
+      Concurrent local complete-covering form of 2D radius-m Lee-sphere tiling
+      rigidity; lee_tiling_classification here gives a self-contained Lean 4
+      proof for global plane tilings of Z^2.
+
+related_formalizations: []
+
+status:
+  scope: >-
+    Unconditionally proved in Lean 4 + Mathlib with standard axioms only (zero
+    sorry, zero native_decide, 171 public theorems in MinimalProlific): full
+    odd-k breadth classification (odd_minimal_prolific_classification), exact
+    cardinality 2 (odd_minimal_prolific_card_eq_two), single D_4 symmetry orbit
+    (odd_minimal_prolific_dihedral_orbit), 2D radius-m Lee-sphere tiling
+    rigidity (lee_tiling_classification), and even-k factorial lower bound
+    2 * (r - 1)! (even_strip_lower_bound).
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: ["propext", "Quot.sound", "Classical.choice"]
+
+automation:
+  methods:
+    - method: agent
+      models: []
+      framework: "AI research agent pipeline built and directed by Tyler B. Hughes"
+      tool_setup: >-
+        Autonomous builder, adversarial falsifier, and reviewer agents
+        discovered the proof and formalized all 171 public theorems in Lean 4 +
+        Mathlib.
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "local machine"
+      prompting_notes: "Goal-directed mathematical discovery and Lean 4 formalization."
+  spend_usd: "not tracked"
+  notes: >-
+    All proofs and Lean 4 formalizations were generated and checked by AI
+    research agents built and directed by Tyler B. Hughes. No human
+    mathematician has yet refereed the proof.
+
+fidelity:
+  divergences: >-
+    The Lean 4 theorems formalize the taxicab-breadth formulation
+    (HasBreadthAtLeast (k + 2) w) directly; equivalence with the k-deletion
+    definition of k-prolific permutations and the minimal-size formula m(k) is
+    cited from Bevan, Homberger, and Tenner (JCTA 153, 2018, Theorem 2.25 and
+    Corollary 4.3) and cross-checked computationally for n <= 7 in the
+    companion verification archive. The companion paper's even-k
+    torus-separated classification (Proposition 1) and exhaustive k <= 8 counts
+    (Proposition 2) are outside this Lean package.
+
+review:
+  status: agent-reviewed
+  reviewers:
+    - "Internal adversarial falsifier, reviewer, and independent cross-family fidelity audit agents"
+  notes: >-
+    Audited for standard axioms only via MinimalProlific/Verify.lean (zero
+    sorry, zero native_decide) and cross-checked by an independent cross-family
+    statement-fidelity audit (3/3 exact against the paper's breadth and tiling
+    theorems). Independent kernel verification is recorded in Palomar's
+    mechanical verification report. No human mathematician has yet refereed the
+    proof.
+
+alignment:
+  namespace: "MinimalProlificChallenge"
+  statements:
+    - source: "Theorem 1 (odd-k classification, BHT 2018 Conjecture 5.1 under breadth criterion)"
+      lean: "MinimalProlificChallenge.odd_minimal_prolific_classification"
+      module: "Challenge"
+      status: proved
+      note: "For every m >= 1 (odd k = 2m - 1, n = 2m^2 + 2m, d = 2m + 1), HasBreadthAtLeast d w iff IsSigmaPlus m w or IsSigmaMinus m w."
+    - source: "Theorem 1 (exact count = 2 for every odd k)"
+      lean: "MinimalProlificChallenge.odd_minimal_prolific_card_eq_two"
+      module: "Challenge"
+      status: proved
+      note: "Nat.card { w : Equiv.Perm (Fin (2*m^2 + 2*m)) // HasBreadthAtLeast (2*m + 1) w } = 2."
+    - source: "Theorem 1 (single D_4 symmetry orbit of size 2)"
+      lean: "MinimalProlificChallenge.odd_minimal_prolific_dihedral_orbit"
+      module: "Challenge"
+      status: proved
+      note: "The two valid permutations are distinct, mutually reverse/complement/inverse, and fixed by 90-degree rotation."
+    - source: "Lemma 1 (2D radius-m Lee-sphere tiling rigidity)"
+      lean: "MinimalProlificChallenge.lee_tiling_classification"
+      module: "Challenge"
+      status: proved
+      note: "Every radius-m Lee-sphere tiling T of Z^2 containing (0, 0) equals LambdaPlus m or LambdaMinus m."
+    - source: "Theorem 2 (even-k factorial lower bound 2 * (r - 1)!)"
+      lean: "MinimalProlificChallenge.even_strip_lower_bound"
+      module: "Challenge"
+      status: proved
+      note: "For every r >= 2 (even k = 2r - 2, n = 2r^2 - 1, d = 2r), at least 2 * (r - 1)! permutations have taxicab breadth >= 2r."
+
+acknowledgements: "Built on Lean 4 and Mathlib."
