@@ -21,6 +21,11 @@ project:
     (2026-11-23-v1), verification archive, and prior-work search logs are
     published at
     https://mathdiscoveries.org/results/minimal-prolific-permutations.
+    Coverage by this package's Palomar comparison: of the companion paper's 5
+    main results, 3 are compared in Lean in full (60%; Theorem 1 in its
+    taxicab-breadth formulation, Theorem 2 and Lemma 3); Proposition 4 is by
+    written proof only and Proposition 5 by certificate only; Conjecture 6 is
+    open and not counted. Abstract claims: 3 of 3 compared in Lean (100%).
     Generated and checked by AI research agents built and directed by Tyler B.
     Hughes. No human mathematician has yet refereed the proof.
   authors:
@@ -167,8 +172,8 @@ fidelity:
     cited from Bevan, Homberger, and Tenner (JCTA 153, 2018, Theorem 2.25 and
     Corollary 4.3) and cross-checked computationally for n <= 7 in the
     companion verification archive. The companion paper's even-k
-    torus-separated classification (Proposition 1) and exhaustive k <= 8 counts
-    (Proposition 2) are outside this Lean package.
+    torus-separated classification (Proposition 4) and exhaustive k <= 8 counts
+    (Proposition 5) are outside this Lean package.
 
 review:
   status: agent-reviewed
@@ -200,7 +205,7 @@ alignment:
       module: "Challenge"
       status: proved
       note: "The two valid permutations are distinct, mutually reverse/complement/inverse, and fixed by 90-degree rotation."
-    - source: "Lemma 1 (2D radius-m Lee-sphere tiling rigidity)"
+    - source: "Lemma 3 (2D radius-m Lee-sphere tiling rigidity)"
       lean: "MinimalProlificChallenge.lee_tiling_classification"
       module: "Challenge"
       status: proved
