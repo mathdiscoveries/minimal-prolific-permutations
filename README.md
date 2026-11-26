@@ -18,7 +18,9 @@ All five compared declarations in `Challenge.lean` are proved unconditionally in
 
 ## Scope Boundary
 
-This Lean 4 package proves the taxicab-breadth and Lee-sphere tiling theorems directly. Equivalence between $\text{breadth}(w) \ge k + 2$ and $k$-prolific permutations (and the minimal size $m(k) = \lceil k^2/2 + 2k + 1 \rceil$) is cited from Bevan, Homberger, and Tenner (*JCTA* 153, 2018, Theorem 2.25 and Corollary 4.3). The companion paper's even-$k$ torus-separated classification and exhaustive $k \le 8$ enumeration are outside this Lean package.
+This Lean 4 package proves the taxicab-breadth and Lee-sphere tiling theorems directly. Equivalence between $\text{breadth}(w) \ge k + 2$ and $k$-prolific permutations (and the minimal size $m(k) = \lceil k^2/2 + 2k + 1 \rceil$) is cited from Bevan, Homberger, and Tenner (*JCTA* 153, 2018, Theorem 2.25 and Corollary 4.3). The companion paper's even-$k$ torus-separated classification (Proposition 4) and exhaustive $k \le 8$ enumeration (Proposition 5) are outside this Lean package.
+
+Coverage by this package's Palomar comparison: of the companion paper's 5 main results, 3 are compared in Lean in full (60%; Theorem 1 in its taxicab-breadth formulation, Theorem 2 and Lemma 3); Proposition 4 is by written proof only and Proposition 5 by certificate only; Conjecture 6 is open and not counted. Abstract claims: 3 of 3 compared in Lean (100%).
 
 ## Build & Verify
 
