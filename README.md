@@ -1,6 +1,6 @@
 # Minimal `k`-Prolific Permutations for Every Odd `k` (`MinimalProlific`)
 
-Lean 4 + Mathlib formalization settling **Conjecture 5.1 of Bevan, Homberger, and Tenner** (*J. Combin. Theory Ser. A* 153, 2018) for every odd $k = 2m - 1 \ge 1$ in its taxicab-breadth formulation, together with 2D radius-$m$ Lee-sphere tiling rigidity and the even-$k$ factorial lower bound.
+Lean 4 + Mathlib formalization of the companion paper's proof of **Conjecture 5.1 of Bevan, Homberger, and Tenner** (*J. Combin. Theory Ser. A* 153, 2018) for every odd $k = 2m - 1 \ge 1$ in its taxicab-breadth formulation, together with 2D radius-$m$ Lee-sphere tiling rigidity and the even-$k$ factorial lower bound.
 
 - **Companion page & dated preprint (2026-11-23-v1):** [mathdiscoveries.org/results/minimal-prolific-permutations](https://mathdiscoveries.org/results/minimal-prolific-permutations)
 - **Author / director:** Tyler B. Hughes (ORCID: [0000-0001-6221-9014](https://orcid.org/0000-0001-6221-9014))

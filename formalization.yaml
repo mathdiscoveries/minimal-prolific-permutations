@@ -4,8 +4,8 @@ version: "v0.4"
 project:
   name: "Minimal k-Prolific Permutations for Every Odd k: Exact Uniqueness via Lee-Sphere Tilings"
   description: >-
-    Unconditional Lean 4 + Mathlib formalization (zero sorry, zero
-    native_decide, standard axioms only) settling Conjecture 5.1 of Bevan,
+    Lean 4 + Mathlib formalization (zero sorry, zero native_decide, standard
+    axioms only) of the companion paper's proof of Conjecture 5.1 of Bevan,
     Homberger, and Tenner (JCTA 153, 2018) for every odd k = 2m - 1 >= 1
     in its taxicab-breadth formulation: at minimal size n = 2m^2 + 2m and
     modulus N = 2m^2 + 2m + 1, a permutation w of Fin n has taxicab breadth at
@@ -38,20 +38,26 @@ sources:
     authors:
       - "Tyler B. Hughes"
     id: "https://mathdiscoveries.org/results/minimal-prolific-permutations"
-    type: original-proof
-    location: "Companion page and dated preprint (2026-11-23-v1) at https://mathdiscoveries.org/results/minimal-prolific-permutations"
-    relationship: other
+    type: paper
+    location: "https://mathdiscoveries.org/results/minimal-prolific-permutations"
+    relationship: formalizes
     author_endorsement: participated
     note: >-
-      Discovered, written, and formalized in Lean 4 + Mathlib by AI research
-      agents built and directed by Tyler B. Hughes. Three independent logged
-      prior-work searches (253 queries across arXiv, Google Scholar, CORE,
-      OEIS A074148/A322481, zbMATH, OpenAlex, Semantic Scholar, Math Stack
-      Exchange, and MathOverflow; 72 candidates evaluated) found no prior proof
-      of Conjecture 5.1 for odd k. Golomb and Welch (1970), Miller (2009),
-      direct Scholar cited-by traversal, MathSciNet, doctoral theses, and
-      non-English literature remain unread/unsearched. No human mathematician
-      has yet refereed the proof.
+      The companion paper (dated preprint 2026-11-23-v1). It states and proves
+      in writing every compared statement of this package (Theorem 1, Lemma 3
+      and Theorem 2), and the Lean work formalizes them; the formalization
+      presents no result that the paper does not. The equivalence of taxicab
+      breadth >= k + 2 with k-prolific permutations and the minimal size m(k)
+      are cited from Bevan, Homberger, and Tenner (Theorem 2.25 and Corollary
+      4.3) and are not formalized. Three logged prior-work searches (253
+      queries across arXiv, Google Scholar, CORE, OEIS A074148/A322481,
+      zbMATH, OpenAlex, Semantic Scholar, Math Stack Exchange, and
+      MathOverflow; 72 candidates evaluated) found no prior proof of
+      Conjecture 5.1 for odd k. Golomb and Welch (1970) and Miller (2009) are
+      unread [to check]; direct Scholar cited-by traversal, MathSciNet,
+      doctoral theses, and non-English literature were not searched. AI
+      research agents built and directed by Tyler B. Hughes generated and
+      checked this work. No human mathematician has yet refereed the proof.
   - title: "Prolific permutations and permuted packings: Downsets containing many large patterns"
     authors:
       - "David Bevan"
