@@ -160,10 +160,17 @@ sources:
     relationship: independently-proves
     note: >-
       Earlier classification of lattice tilings by crosses in every
-      dimension, credited by Horak and AlBdaiwi (2012). In dimension two it
-      gives one lattice cross tiling up to equivalence, which
-      lee_tiling_classification at m = 1 independently recovers. Metadata
-      checked against zbMATH; the paper is not recorded as read.
+      dimension, credited by Horak and AlBdaiwi (2012). Section 4, equation
+      (18), pp. 184-185, counts the equivalence classes of lattice cross
+      tilings of the integer grid; in dimension two, 2n + 1 = 5 is prime and
+      (18) gives one class. The two centre sets classified by
+      lee_tiling_classification at m = 1 are mirror images, so they form
+      that one class under reflection. Read depth: the cross-family
+      editorial referee (blind GPT audit seat of 2026-11-26) checked Section
+      4 and equation (18) in the copy at
+      academia.edu/157009701; the package authors could not obtain the
+      Lincei scan and have not read the paper. Metadata checked against
+      zbMATH.
     author_endorsement: not-contacted
   - title: "On the existence of complete coverings of Lee spheres"
     authors:
