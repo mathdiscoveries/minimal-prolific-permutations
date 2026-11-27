@@ -88,9 +88,19 @@ sources:
       - "Peter Hegarty"
     id: "https://doi.org/10.1016/j.jcta.2013.06.006"
     type: paper
-    location: "Journal of Combinatorial Theory, Series A 120(7) (2013), 1663-1671 (arXiv:1206.0966v2)"
-    relationship: background
-    note: "Equivalent k-separators formulation and qualitative tilted-checkerboard conjecture without uniqueness proof."
+    location: "Journal of Combinatorial Theory, Series A 120(7) (2013), 1663-1671, Section 3, both tables and Conjecture 3.1 (author's revised text, math.chalmers.se/~hegarty/perm_pattern_revised_june7.pdf; arXiv:1206.0966v2 predates the tables and the conjecture)"
+    relationship: independently-proves
+    note: >-
+      Hegarty enumerated exactly one symmetric pair of k-separators at
+      (pattern length, permutation length) = (3, 4) and (9, 12), with
+      representatives 3142 and (5,10,2,7,12,4,9,1,6,11,3,8). At deletion
+      counts 1 and 3 (m = 1, 2) the compared odd classification, count and
+      orbit theorems recover those cases in the breadth formulation, using
+      Bevan-Homberger-Tenner Theorem 2.25 for the separator interpretation.
+      Hegarty's Conjecture 3.1 goes beyond these enumerated cases. Read
+      depth: Section 3 of the revised text read for this entry, and the
+      arXiv v2 read in full as recorded in the companion's
+      references-checked.md.
   - title: "Maximin Latin Hypercube Designs in Two Dimensions"
     authors:
       - "Edwin R. van Dam"
