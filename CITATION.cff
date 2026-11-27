@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 type: software
-message: "If you use or cite this Lean 4 formalization, please cite it using the metadata below."
+message: "If you use or cite this Lean 4 formalization, please cite it using the metadata below. AI research agents built and directed by Tyler B. Hughes generated and checked this work. No human mathematician has yet refereed the proof."
 title: "Minimal k-Prolific Permutations for Every Odd k: Exact Uniqueness via Lee-Sphere Tilings"
 authors:
   - family-names: "Hughes"
