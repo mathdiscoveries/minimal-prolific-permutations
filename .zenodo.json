@@ -191,12 +191,27 @@
     {
       "identifier": "https://doi.org/10.47749/t/unicamp.2015.959438",
       "relation": "references",
-      "resource_type": "publication-article"
+      "resource_type": "publication-thesis"
     },
     {
       "identifier": "https://doi.org/10.1142/12823",
       "relation": "references",
       "resource_type": "publication-book"
+    },
+    {
+      "identifier": "https://doi.org/10.2478/v10127-010-0004-y",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://doi.org/10.5802/alco.202",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://doi.org/10.1016/j.aam.2005.10.002",
+      "relation": "references",
+      "resource_type": "publication-article"
     }
   ],
   "notes": "Unrefereed. Generated and checked by AI research agents built and directed by Tyler B. Hughes."

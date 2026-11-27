@@ -246,16 +246,22 @@ sources:
     location: "Atti della Accademia Nazionale dei Lincei, Rendiconti, Classe di Scienze Fisiche, Matematiche e Naturali, serie 8, 51 (1971), 177-185 (Zbl 0257.05024), main classification specialized to dimension two"
     relationship: independently-proves
     note: >-
-      Horak and AlBdaiwi (2012, page 12, opening of the proof of Theorem 2)
-      write: "Molnar [15] showed that if 2n + 1 is a prime then there is only
-      one, up to a congruency, lattice-like tiling of Rn.", where [15] is this
-      paper and the tiles are crosses. In dimension two 2n + 1 = 5 is prime, and
-      the two centre sets classified by lee_tiling_classification at m = 1 are
-      mirror images, so they form that one class. The blind cross-family
-      editorial audit (GPT seat, 2026-11-26) located the count in Section 4,
-      equation (18), pages 184 and 185. Molnar's paper itself is unread: the
-      Lincei scan could not be obtained [to check]. Metadata checked against
-      zbMATH.
+      Two read works state this paper's result. Horak and AlBdaiwi (2012, page
+      12, opening of the proof of Theorem 2) write: "Molnar [15] showed that if
+      2n + 1 is a prime then there is only one, up to a congruency, lattice-like
+      tiling of Rn.", where [15] is this paper and the tiles are crosses. Szabo
+      (Acta Math. Acad. Sci. Hungar. 38 (1981), page 191, read in the
+      archive.org scan) gives as "the following theorem of E. MOLNAR [2]": "The
+      number of pairwise non-congruent mosaics of this type and the number of
+      pairwise non-isomorphic Abelian groups of order 2n+1, are equal", for
+      lattice-like cross mosaics joining along entire faces. In dimension two 2n
+      + 1 = 5 is prime, and the two centre sets classified by
+      lee_tiling_classification at m = 1 are mirror images, so they form that
+      one class. The blind cross-family editorial audit located the count in
+      Section 4, equation (18), pages 184 and 185. Molnar's paper itself is
+      unread: no open copy was reachable (bdim.eu did not answer its robots.txt,
+      archive.org's Rendiconti run ends in 1961) [to check]. Metadata checked
+      against zbMATH.
     author_endorsement: not-contacted
   - title: "A new approach towards the Golomb-Welch conjecture"
     authors:
@@ -683,13 +689,22 @@ sources:
       - "S. Szabó"
     id: "https://doi.org/10.1007/bf01917533"
     type: paper
-    location: "Acta Mathematica Academiae Scientiarum Hungaricae 38(1-4) (1981), 191-203, main theorem"
+    location: "Acta Mathematica Academiae Scientiarum Hungaricae 38(1-4) (1981), 191-203, Theorem A, page 191"
     relationship: background
     note: >-
-      Not read: the Springer site refuses this client in robots.txt [to check].
-      Reported by a prior-work census seat: the main theorem shows that every
-      tiling of the plane by crosses is a lattice tiling, which with Molnar
-      (1971) gives lee_tiling_classification at m = 1.
+      Read on page 191 of the public archive.org scan of volume 38 (item
+      dli.ernet.236055). Theorem A, introduced as "the following theorem of E.
+      MOLNAR [2]": "Let us consider lattice-like mosaics of n-dimensional
+      crosses where the neighbouring ones join each other along entire
+      (n-1)-dimensional cube faces. The number of pairwise non-congruent mosaics
+      of this type and the number of pairwise non-isomorphic Abelian groups of
+      order 2n+1, are equal." Theorem 1 assumes a lattice-like mosaic (adjacent
+      crosses join along entire faces when 2n + 1 is prime), and Theorem 2
+      constructs a non-lattice-like mosaic when 2n + 1 is composite. The paper
+      does not show that every tiling of the plane by crosses is a lattice
+      tiling; that planar step is Horak and AlBdaiwi's Theorem 2 (2012, listed
+      above). Theorem A is credited to Molnar (listed above). The rest of the
+      paper is not recorded as read.
     author_endorsement: not-contacted
   - title: "Algebra and Tiling: Homomorphisms in the Service of Geometry"
     authors:
@@ -713,13 +728,19 @@ sources:
       - "Frank Harary"
     id: "https://zbmath.org/?q=an:0906.05035"
     type: paper
-    location: "Journal of Combinatorial Mathematics and Combinatorial Computing 25 (1997), 161-174, the five-by-five torus"
-    relationship: background
+    location: "Journal of Combinatorial Mathematics and Combinatorial Computing 25 (1997), 161-174, page 173, with Figure 9 on page 174"
+    relationship: independently-proves
     note: >-
-      Not read: print journal with no open copy [to check]. Reported by a
-      prior-work census seat as determining the minimum dominating sets of the
-      product of two 5-cycles, which are perfect: the five-by-five torus case of
-      lee_tiling_classification at m = 1.
+      Read in the publisher's scan (combinatorialpress.com, printed pages 171 to
+      174). On page 173, for G = C5 x C5 and S the subgroup of Z5 x Z5 generated
+      by (2,1): "So S = {(0,0),(2,1),(4,2),(1,3),(3,4)} is a minimum dominating
+      set for G. Let T = {(0,0),(2,1)}. We show that T is a forcing subset for
+      S.", ending "Hence S = S' and T is a forcing subset for S." A minimum
+      dominating set of C5 x C5 is five disjoint crosses, so its lift is a
+      radius-one Lee tiling containing the origin, and lee_tiling_classification
+      at m = 1 leaves the two mirror lattices, of which only S contains (2,1).
+      The credit is limited to that uniqueness statement on the five-by-five
+      torus; the rest of the paper is not recorded as read.
     author_endorsement: not-contacted
   - title: "Perfect distance-d placements in 3-dimensional tori"
     authors:
@@ -732,22 +753,33 @@ sources:
     note: >-
       Not read: print journal with no open copy [to check]. Reported by a
       prior-work census seat as proving that every radius-one Lee tiling is
-      unique up to congruence in dimensions 2 and 3; Horak (Tatra Mt. Math.
-      Publ. 2010, page 40), read, attributes that uniqueness to Horak and
-      AlBdaiwi instead (listed above).
+      unique up to congruence in dimensions 2 and 3. Horak (Tatra Mt. Math.
+      Publ. 45 (2010), Theorem 5, page 41, listed below), read, attributes that
+      uniqueness instead to Horak and AlBdaiwi, "The number of tilings of Rn by
+      crosses", then submitted.
     author_endorsement: not-contacted
   - title: "On multiple coverings of the infinite rectangular grid with balls of constant radius"
     authors:
       - "Maria A. Axenovich"
     id: "https://doi.org/10.1016/s0012-365x(02)00744-6"
     type: paper
-    location: "Discrete Mathematics 268(1-3) (2003), 31-48, Section 3, Theorem 7"
-    relationship: background
+    location: "Discrete Mathematics 268(1-3) (2003), 31-48, Section 3, Theorem 7 (matrix A1) and Figure 2"
+    relationship: independently-proves
     note: >-
-      Not read: ScienceDirect answered HTTP 403 and the author copy was
-      unreachable [to check]. Reported by a prior-work census seat: Theorem 7
-      and matrix A1 concern coverings of the grid by balls of radius r, whose
-      perfect case is a tiling by Lee spheres (lee_tiling_classification).
+      Read in the author's preprint (iag.math.kit.edu, pages numbered 1 to 14,
+      not the journal's), Section 3, author-copy pages 4 to 6. A colouring with
+      matrix A1 = (0 4 / 1 3) gives each colour-0 vertex no colour-0 neighbour
+      and each colour-1 vertex exactly one, so the closed radius-one balls
+      around the colour-0 vertices tile the grid. Theorem 7: "A 2 x 2 matrix is
+      the coloring matrix for an isotropic coloring iff it is one of or is
+      equivalent to one of the following: A1, A2, A4, [...]", and "Matrices A4
+      and A9 correspond to uncountably many isotropic colorings. The other
+      matrices in the list correspond to the unique (up to isomorphism)
+      isotropic colorings." For A1 that is the uniqueness in
+      lee_tiling_classification at m = 1, the two mirror centre sets being
+      isomorphic. The proof given is a reference to Figure 2, and isomorphism is
+      not defined in the text. The credit is limited to matrix A1 (radius one);
+      the rest of the paper is not recorded as read.
     author_endorsement: not-contacted
   - title: "Perfect Distance-d Placements in 2D Toroidal Networks"
     authors:
@@ -801,13 +833,18 @@ sources:
       - "E. M. Gabidulin"
     id: "https://doi.org/10.1016/j.jsc.2010.03.013"
     type: paper
-    location: "Journal of Symbolic Computation 45(7) (2010), 813-824, quotient-ring formulation of perfect codes"
+    location: "Journal of Symbolic Computation 45(7) (2010), 813-824, Section 4, Theorem 10(i) and (ii)"
     relationship: background
     note: >-
       Not read: ScienceDirect answered HTTP 403 [to check]. Reported by the
-      prior-work census seats as describing the perfect t-codes of Gaussian
-      graphs as the ideals generated by t + (t + 1)i, the lattice case of
-      lee_tiling_classification.
+      blind cross-family editorial audit: Section 4, Theorem 10(i) and (ii),
+      gives two sufficient divisor constructions, proving that each indicated
+      ideal of the Gaussian integers is a perfect code of the Gaussian graph; it
+      does not assert the converse, that every perfect code has one of those
+      forms. The construction direction bears on the lattice case of
+      lee_tiling_classification (the two mirror lattices are such codes); the
+      classification direction for ideal codes is Zhou's Theorem 4.5 (2019,
+      listed above).
     author_endorsement: not-contacted
   - title: "Códigos perfeitos nas métricas de Lee e Chebyshev e iterações de funções de Rédei"
     authors:
@@ -834,6 +871,64 @@ sources:
       Not read: no open copy of the World Scientific book [to check]. Reported
       by a prior-work census seat as treating the classification of
       two-dimensional perfect Lee codes (lee_tiling_classification).
+    author_endorsement: not-contacted
+  - title: "Error-correcting codes and Minkowski's conjecture"
+    authors:
+      - "Peter Horak"
+    id: "https://doi.org/10.2478/v10127-010-0004-y"
+    type: paper
+    location: "Tatra Mountains Mathematical Publications 45 (2010), 37-49, Section 2, Theorem 5, page 41"
+    relationship: background
+    note: >-
+      Read in the journal PDF (sav.sk), pages 37 to 41 and the references. Page
+      41: "In [11] it was proved Theorem 5. For n = 2 and n = 3, any two tilings
+      of Rn by crosses are congruent.", where [11] is Horak and AlBdaiwi, "The
+      number of tilings of Rn by crosses", then submitted; page 39 notes that
+      the n-cross is a Lee sphere of radius one. In dimension two this is the
+      uniqueness in lee_tiling_classification at m = 1. The survey states the
+      theorem with attribution and gives no proof, so it is listed as
+      background; the proof is credited to Horak and AlBdaiwi (2012, listed
+      above).
+    author_endorsement: not-contacted
+  - title: "From Hertzsprung's problem to pattern-rewriting systems"
+    authors:
+      - "Anders Claesson"
+    id: "https://doi.org/10.5802/alco.202"
+    type: paper
+    location: "Algebraic Combinatorics 5(6) (2022), 1257-1277, Section 1, page 1257"
+    relationship: background
+    note: >-
+      Read in the published CC BY version (akc.is), pages 1257 and 1258. Page
+      1257, on Hertzsprung's problem: "the problem is to determine the number of
+      ways in which the numbers 1, 2, 3, 4, . . . , n can be arranged such that
+      the difference between two adjacent numbers is different from 1. For n = 4
+      there are only two such arrangements, namely 2413 and 3142." That is the m
+      = 1 case of odd_minimal_prolific_classification and
+      odd_minimal_prolific_card_eq_two, stated as an example of Hertzsprung's
+      (1887, listed above) count rather than proved, so it is listed as
+      background. The rest of the paper is not recorded as read.
+    author_endorsement: not-contacted
+  - title: "An almost complete description of perfect codes in direct products of cycles"
+    authors:
+      - "Sandi Klavžar"
+      - "Simon Špacapan"
+      - "Janez Žerovnik"
+    id: "https://doi.org/10.1016/j.aam.2005.10.002"
+    type: paper
+    location: "Advances in Applied Mathematics 37(1) (2006), 2-18, Section 4, Lemma 4.4, page 13"
+    relationship: background
+    note: >-
+      Read in the journal-layout copy on the first author's site
+      (users.fmf.uni-lj.si), Section 4 in full (pages 10 to 17) and pages 2 to
+      4. Lemma 4.4 (page 13): for an r-perfect code P of a component of a direct
+      product of cycles, r >= 2 and each length at least 2r + 2, and x in P,
+      every point x + sum alpha_i x^i with integer alpha_i and x^i in the local
+      vector set B(x) lies in P. For two factors this closure property follows
+      from lee_tiling_classification (the lifted code is a lattice), but it is a
+      consequence of the compared statement, not a case of it, and the paper
+      does not state a classification for two factors (it refers to Jerebic,
+      Klavzar and Spacapan 2005, listed above). Listed as background; the rest
+      of the paper is not recorded as read.
     author_endorsement: not-contacted
 related_formalizations: []
 
