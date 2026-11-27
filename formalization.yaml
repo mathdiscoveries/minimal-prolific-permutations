@@ -134,6 +134,37 @@ sources:
       lee_tiling_classification at m = 1 independently proves the plane
       case, which includes the periodic one. The survey reports that result
       rather than originating it.
+  - title: "Non-periodic Tilings of ℝⁿ by Crosses"
+    authors:
+      - "Peter Horak"
+      - "Bader AlBdaiwi"
+    id: "https://doi.org/10.1007/s00454-011-9373-5"
+    type: paper
+    location: "Discrete & Computational Geometry 47(1) (2012), 1-16, Theorem 2, its planar proof and the remark following it"
+    relationship: independently-proves
+    note: >-
+      Primary source for the planar case: Theorem 2 proves that every tiling
+      of the plane by crosses is a lattice tiling, and the remark after its
+      proof gives the two tilings containing the cross centered at the
+      origin. The radius-one Lee sphere is the five-cell cross, so
+      lee_tiling_classification at m = 1 independently proves this case; the
+      source also treats dimension three. Metadata checked against Crossref;
+      the passages were located by the cross-family editorial audit, and the
+      paywalled text is not recorded as read in full by the package authors.
+    author_endorsement: not-contacted
+  - title: "Sui mosaici dello spazio di dimensione n"
+    authors:
+      - "Emil Molnár"
+    type: paper
+    location: "Atti della Accademia Nazionale dei Lincei, Rendiconti, Classe di Scienze Fisiche, Matematiche e Naturali, serie 8, 51 (1971), 177-185 (Zbl 0257.05024), main classification specialized to dimension two"
+    relationship: independently-proves
+    note: >-
+      Earlier classification of lattice tilings by crosses in every
+      dimension, credited by Horak and AlBdaiwi (2012). In dimension two it
+      gives one lattice cross tiling up to equivalence, which
+      lee_tiling_classification at m = 1 independently recovers. Metadata
+      checked against zbMATH; the paper is not recorded as read.
+    author_endorsement: not-contacted
   - title: "On the existence of complete coverings of Lee spheres"
     authors:
       - "J. Zhang"
