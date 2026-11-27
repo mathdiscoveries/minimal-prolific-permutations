@@ -6,20 +6,20 @@ project:
   description: >-
     Lean 4 + Mathlib formalization (zero sorry, zero native_decide, standard
     axioms only) of the companion paper's proof of Conjecture 5.1 of Bevan,
-    Homberger, and Tenner (JCTA 153, 2018) for every odd k = 2m - 1 >= 1
-    in its taxicab-breadth formulation: at minimal size n = 2m^2 + 2m and
-    modulus N = 2m^2 + 2m + 1, a permutation w of Fin n has taxicab breadth at
-    least d = 2m + 1 iff w(i) + 1 = +(2m + 1)(i + 1) (mod N) or
-    w(i) + 1 = -(2m + 1)(i + 1) (mod N) for all i, giving exactly 2 valid
-    permutations forming a single D_4 symmetry orbit. Also formalizes the 2D
-    radius-m Lee-sphere tiling classification (every tiling of Z^2 containing
-    (0, 0) equals LambdaPlus m or LambdaMinus m) and the even-k factorial lower
-    bound 2 * (r - 1)! = 2 * (k/2)! at n = 2r^2 - 1, d = 2r for every r >= 2.
-    Equivalence between taxicab breadth >= k + 2 and k-prolific permutations
-    (plus minimal size m(k)) is cited from Bevan, Homberger, and Tenner (2018,
-    Theorem 2.25 and Corollary 4.3). Companion page, dated preprint
-    (2026-11-23-v1), verification archive, and prior-work search logs are
-    published at
+    Homberger, and Tenner (JCTA 153, 2018) for every odd k = 2m - 1 >= 1 in
+    its taxicab-breadth formulation: at minimal size n = 2m^2 + 2m and modulus
+    N = 2m^2 + 2m + 1, a permutation w of Fin n has taxicab breadth at least d
+    = 2m + 1 iff w(i) + 1 = +(2m + 1)(i + 1) (mod N) or w(i) + 1 = -(2m + 1)(i
+    + 1) (mod N) for all i, giving exactly 2 valid permutations forming a
+    single D_4 symmetry orbit. Also formalizes the 2D radius-m Lee-sphere
+    tiling classification (every tiling of Z^2 containing (0, 0) equals
+    LambdaPlus m or LambdaMinus m) and the even-k factorial lower bound 2 * (r
+    - 1)! = 2 * (k/2)! at n = 2r^2 - 1, d = 2r for every r >= 2. Equivalence
+    between taxicab breadth >= k + 2 and k-prolific permutations (plus minimal
+    size m(k)) is cited from Bevan, Homberger, and Tenner (2018, Theorem 2.25
+    and Corollary 4.3). The companion page links to the dated preprint
+    (2026-11-23-v1) and the verification archive, which includes a summary of
+    the prior-work searches:
     https://mathdiscoveries.org/results/minimal-prolific-permutations.
     Coverage by this package's Palomar comparison: of the companion paper's 5
     main results, 3 are compared in Lean in full (60%; Theorem 1 in its

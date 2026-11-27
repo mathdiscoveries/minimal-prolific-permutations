@@ -6,7 +6,7 @@
     }
   ],
   "title": "Minimal k-Prolific Permutations for Every Odd k: Exact Uniqueness via Lee-Sphere Tilings",
-  "description": "Unconditional Lean 4 + Mathlib formalization settling Conjecture 5.1 of Bevan, Homberger, and Tenner (JCTA 153, 2018) for every odd k = 2m - 1 >= 1 in its taxicab-breadth formulation, together with 2D radius-m Lee-sphere tiling rigidity and the even-k factorial lower bound 2 * (k/2)!. Companion page, dated preprint (2026-11-23-v1), verification archive, and prior-work search logs are published at https://mathdiscoveries.org/results/minimal-prolific-permutations. Generated and checked by AI research agents built and directed by Tyler B. Hughes. No human mathematician has yet refereed the proof.",
+  "description": "Unconditional Lean 4 + Mathlib formalization settling Conjecture 5.1 of Bevan, Homberger, and Tenner (JCTA 153, 2018) for every odd k = 2m - 1 >= 1 in its taxicab-breadth formulation, together with 2D radius-m Lee-sphere tiling rigidity and the even-k factorial lower bound 2 * (k/2)!. The companion page links to the dated preprint (2026-11-23-v1) and the verification archive, which includes a summary of the prior-work searches: https://mathdiscoveries.org/results/minimal-prolific-permutations. Generated and checked by AI research agents built and directed by Tyler B. Hughes. No human mathematician has yet refereed the proof.",
   "upload_type": "software",
   "access_right": "open",
   "license": "apache-2.0",
