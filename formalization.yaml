@@ -119,6 +119,10 @@ sources:
       odd_minimal_prolific_card_eq_two (odd d) and even_strip_lower_bound
       (even d) recover that attainment at those sizes. The credit is limited
       to attainment; the general size formula is cited, not formalized.
+      Read depth: the companion's references-checked.md records Proposition
+      2 as read; Constructions 2 and 3 were located by the cross-family
+      editorial audit and have not been read by the package authors
+      [to check].
   - title: "The minimum Manhattan distance and minimum jump of permutations"
     authors:
       - "Simon R. Blackburn"
@@ -160,7 +164,9 @@ sources:
       lee_tiling_classification at m = 1 independently proves this case; the
       source also treats dimension three. Metadata checked against Crossref;
       the passages were located by the cross-family editorial audit, and the
-      paywalled text is not recorded as read in full by the package authors.
+      paywalled text is not recorded as read in full by the package authors
+      [to check]; read: none beyond the abstract; not read: Theorem 2, its
+      proof and the remark.
     author_endorsement: not-contacted
   - title: "Sui mosaici dello spazio di dimensione n"
     authors:
@@ -179,8 +185,46 @@ sources:
       editorial referee (blind GPT audit seat of 2026-11-26) checked Section
       4 and equation (18) in the copy at
       academia.edu/157009701; the package authors could not obtain the
-      Lincei scan and have not read the paper. Metadata checked against
-      zbMATH.
+      Lincei scan and have not read the paper [to check]. Metadata checked
+      against zbMATH.
+    author_endorsement: not-contacted
+  - title: "A new approach towards the Golomb-Welch conjecture"
+    authors:
+      - "Peter Horak"
+      - "Otokar Grošek"
+    id: "https://doi.org/10.1016/j.ejc.2013.10.010"
+    type: paper
+    location: "European Journal of Combinatorics 38 (2014), 12-22, proof of Theorem 6, case (i) (arXiv:1205.4875v3, preprint pages 7 and 8)"
+    relationship: independently-proves
+    note: >-
+      For every radius r, case (i) of the proof of Theorem 6 states that a
+      tiling of Z^2 by Lee spheres of size 2r^2 + 2r + 1 "is unique, up to a
+      symmetry" and gives the cyclic lattice construction (e1 -> r, e2 -> r +
+      1 in Z_k); no proof of uniqueness is given there. The two centre sets
+      of lee_tiling_classification are reflections of one another, so the
+      compared theorem independently proves this uniqueness statement for
+      tilings containing the origin. Read depth: the proof of Theorem 6 read
+      in arXiv:1205.4875v3; the rest of the paper is not recorded as read
+      [to check].
+    author_endorsement: not-contacted
+  - title: "Enumerating and decoding perfect linear Lee codes"
+    authors:
+      - "Bader AlBdaiwi"
+      - "Peter Horak"
+      - "Lorenzo Milazzo"
+    id: "https://doi.org/10.1007/s10623-009-9273-3"
+    type: paper
+    location: "Designs, Codes and Cryptography 52(2) (2009), 155-162, Theorem 18"
+    relationship: independently-proves
+    note: >-
+      At n = 2 and q = 5, Theorem 18 gives one isomorphism class of linear
+      perfect radius-one Lee codes on (Z/5Z)^2. Such a code contains 0, and
+      its inverse image in Z^2 is a radius-one Lee-sphere tiling containing
+      the origin, so lee_tiling_classification at m = 1 forces one of the two
+      mirror lattices and independently proves this uniqueness case. The
+      credit is limited to that case. Metadata checked against Crossref; the
+      theorem was located by the cross-family editorial audit, and the
+      paywalled paper has not been read by the package authors [to check].
     author_endorsement: not-contacted
   - title: "On the existence of complete coverings of Lee spheres"
     authors:
