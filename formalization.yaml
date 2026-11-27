@@ -83,6 +83,44 @@ sources:
       4.3); these are cited, not formalized, here. It poses Conjecture 5.1
       (uniqueness up to symmetry for odd k), which the compared theorems
       settle in the breadth formulation. Read in full (arXiv v3).
+  - title: "A combination problem"
+    authors:
+      - "Severin Hertzsprung"
+    id: "https://archive.org/details/tidsskriftforma00zeutgoog"
+    type: paper
+    location: "Zeuthen T. (5) V, 13-17 (1887) (Tidsskrift for Mathematik, fifth series, vol. 5; Danish original title En Kombinationsopgave; JFM 19.0198.02), problem statement on page 13"
+    relationship: independently-proves
+    note: >-
+      The problem asks for the arrangements of 1, ..., n in which adjacent
+      entries never differ by 1, and its parenthesis states that for n = 4
+      there are only two, 2413 and its reverse 3142. For permutations this
+      condition is breadth at least 3, so at m = 1 the compared odd
+      classification, count and orbit theorems independently prove this
+      four-point case. Hertzsprung refers to his earlier discussion (1879,
+      p. 140), which is not recorded as read [to check]. Read depth: the
+      problem statement and parenthesis on page 13 read in the digitized
+      volume; the rest of the article is not recorded as read [to check].
+    author_endorsement: not-contacted
+  - title: "Counting Fixed-Length Permutation Patterns"
+    authors:
+      - "Cheyne Homberger"
+    id: "https://doi.org/10.61091/ojac-703"
+    type: paper
+    location: "Online Journal of Analytic Combinatorics 7 (2012) (arXiv:1211.7117), expansion of F(z, 0) after Corollary 11, Definition 21 and Figure 3"
+    relationship: independently-proves
+    note: >-
+      The bond-free generating function F(z, 0) = 1 + z + 2z^4 + 14z^5 + ...
+      gives two bond-free permutations of length four, the count in
+      odd_minimal_prolific_card_eq_two at m = 1. Figure 3 gives pi(4) =
+      3614725 with minimum gap 4 and a symmetry orbit of order two, so two
+      permutations of length seven with breadth at least 4; the compared
+      even_strip_lower_bound at r = 2 states that lower bound. The credit is
+      limited to these two numerical cases; the even comparison gives
+      neither equality nor the witnesses. Read depth: the expansion of
+      F(z, 0) (page 6) and Definition 21 through Corollary 23 with Figure 3
+      (pages 9 and 10) read in arXiv:1211.7117v1; the rest is not recorded
+      as read [to check].
+    author_endorsement: not-contacted
   - title: "Permutations all of whose patterns of a given length are distinct"
     authors:
       - "Peter Hegarty"
@@ -119,10 +157,10 @@ sources:
       odd_minimal_prolific_card_eq_two (odd d) and even_strip_lower_bound
       (even d) recover that attainment at those sizes. The credit is limited
       to attainment; the general size formula is cited, not formalized.
-      Read depth: the companion's references-checked.md records Proposition
-      2 as read; Constructions 2 and 3 were located by the cross-family
-      editorial audit and have not been read by the package authors
-      [to check].
+      Read depth: the statements of Constructions 2 (even d) and 3 (odd d)
+      and of Proposition 2 read in the authors' copy
+      (pure.uvt.nl/ws/files/803551/Maximinl.pdf); their proofs and the rest
+      of the paper are not recorded as read [to check].
   - title: "The minimum Manhattan distance and minimum jump of permutations"
     authors:
       - "Simon R. Blackburn"
@@ -162,11 +200,10 @@ sources:
       proof gives the two tilings containing the cross centered at the
       origin. The radius-one Lee sphere is the five-cell cross, so
       lee_tiling_classification at m = 1 independently proves this case; the
-      source also treats dimension three. Metadata checked against Crossref;
-      the passages were located by the cross-family editorial audit, and the
-      paywalled text is not recorded as read in full by the package authors
-      [to check]; read: none beyond the abstract; not read: Theorem 2, its
-      proof and the remark.
+      source also treats dimension three. Read depth: the statement of
+      Theorem 2, its proof for n = 2 (Claims 19 and 20) and the closing
+      remark read in the publisher's open copy; Theorem 1 and the n = 3 case
+      are not recorded as read [to check].
     author_endorsement: not-contacted
   - title: "Sui mosaici dello spazio di dimensione n"
     authors:
@@ -203,9 +240,27 @@ sources:
       1 in Z_k); no proof of uniqueness is given there. The two centre sets
       of lee_tiling_classification are reflections of one another, so the
       compared theorem independently proves this uniqueness statement for
-      tilings containing the origin. Read depth: the proof of Theorem 6 read
-      in arXiv:1205.4875v3; the rest of the paper is not recorded as read
-      [to check].
+      tilings containing the origin. Read depth: arXiv:1205.4875v3 read in
+      full.
+    author_endorsement: not-contacted
+  - title: "Perfect domination in regular grid graphs"
+    authors:
+      - "Italo J. Dejter"
+    id: "https://arxiv.org/abs/0711.4343"
+    type: paper
+    location: "Australasian Journal of Combinatorics 42 (2008), 99-114, Section 4, Figure 6 and the remark after Corollary 9"
+    relationship: independently-proves
+    note: >-
+      Section 4 states that the plane grid has just one 1-perfect code up to
+      symmetry, the sublattice generated by (1, 2) and (2, -1), and after
+      Corollary 9 that for each d there are only two partitions of the grid
+      into copies of a d-perfect code, the two enantiomorphic presentations.
+      An anchored plane perfect code is the centre set of a Lee-sphere
+      tiling, so lee_tiling_classification independently proves the
+      radius-one classification and the two mirror families at every
+      radius. Read depth: the opening of Section 4 with Figure 6, and
+      Corollary 9 with the paragraph after it, read in arXiv:0711.4343v4; the
+      rest of the paper is not recorded as read [to check].
     author_endorsement: not-contacted
   - title: "Enumerating and decoding perfect linear Lee codes"
     authors:
