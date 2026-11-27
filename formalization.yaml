@@ -210,16 +210,15 @@ sources:
       - "George E. Martin"
     type: book
     location: "Mathematical Association of America, 1991, chapter 6, pages 81 and 82, Figures 6.8 and 6.9"
-    relationship: independently-proves
+    relationship: background
     note: >-
-      Reported by the blind cross-family editorial audit, not read here:
-      after Problem 6.15, Figure 6.8 shows the two ways to fill a corner
-      beside a placed cross, each choice forces the whole tiling, and
-      Figure 6.9 shows the two completions, exchanged by reflection. That is
-      the conclusion of lee_tiling_classification at m = 1 for a tiling
-      containing the origin, with no periodicity hypothesis. Read depth:
-      none; chapter 6, pages 81 and 82 and Figures 6.8 and 6.9 are not read
-      [to check].
+      Reported by the blind cross-family editorial audit (GPT seat, 2026-11-26),
+      not read here: after Problem 6.15, Figure 6.8 shows the two ways to fill a
+      corner beside a placed cross, each choice forces the whole tiling, and
+      Figure 6.9 shows the two completions, exchanged by reflection. If so, that
+      is the conclusion of lee_tiling_classification at m = 1 for a tiling
+      containing the origin, with no periodicity hypothesis. Print book; chapter
+      6, pages 81 and 82 and Figures 6.8 and 6.9 are unread [to check].
     author_endorsement: not-contacted
   - title: "Non-periodic Tilings of ℝⁿ by Crosses"
     authors:
@@ -247,18 +246,16 @@ sources:
     location: "Atti della Accademia Nazionale dei Lincei, Rendiconti, Classe di Scienze Fisiche, Matematiche e Naturali, serie 8, 51 (1971), 177-185 (Zbl 0257.05024), main classification specialized to dimension two"
     relationship: independently-proves
     note: >-
-      Earlier classification of lattice tilings by crosses in every
-      dimension, credited by Horak and AlBdaiwi (2012). Section 4, equation
-      (18), pp. 184-185, counts the equivalence classes of lattice cross
-      tilings of the integer grid; in dimension two, 2n + 1 = 5 is prime and
-      (18) gives one class. The two centre sets classified by
-      lee_tiling_classification at m = 1 are mirror images, so they form
-      that one class under reflection. Read depth: the cross-family
-      editorial referee (blind GPT audit seat of 2026-11-26) checked Section
-      4 and equation (18) in the copy at
-      academia.edu/157009701; the package authors could not obtain the
-      Lincei scan and have not read the paper [to check]. Metadata checked
-      against zbMATH.
+      Horak and AlBdaiwi (2012, page 12, opening of the proof of Theorem 2)
+      write: "Molnar [15] showed that if 2n + 1 is a prime then there is only
+      one, up to a congruency, lattice-like tiling of Rn.", where [15] is this
+      paper and the tiles are crosses. In dimension two 2n + 1 = 5 is prime, and
+      the two centre sets classified by lee_tiling_classification at m = 1 are
+      mirror images, so they form that one class. The blind cross-family
+      editorial audit (GPT seat, 2026-11-26) located the count in Section 4,
+      equation (18), pages 184 and 185. Molnar's paper itself is unread: the
+      Lincei scan could not be obtained [to check]. Metadata checked against
+      zbMATH.
     author_endorsement: not-contacted
   - title: "A new approach towards the Golomb-Welch conjecture"
     authors:
@@ -305,16 +302,14 @@ sources:
     id: "https://doi.org/10.1007/s10623-009-9273-3"
     type: paper
     location: "Designs, Codes and Cryptography 52(2) (2009), 155-162, Theorem 18"
-    relationship: independently-proves
+    relationship: background
     note: >-
-      At n = 2 and q = 5, Theorem 18 gives one isomorphism class of linear
-      perfect radius-one Lee codes on (Z/5Z)^2. Such a code contains 0, and
-      its inverse image in Z^2 is a radius-one Lee-sphere tiling containing
-      the origin, so lee_tiling_classification at m = 1 forces one of the two
-      mirror lattices and independently proves this uniqueness case. The
-      credit is limited to that case. Metadata checked against Crossref; the
-      theorem was located by the cross-family editorial audit, and the
-      paywalled paper has not been read by the package authors [to check].
+      Reported by the blind cross-family editorial audit, not read here: at n =
+      2 and q = 5, Theorem 18 gives one isomorphism class of linear perfect
+      radius-one Lee codes on (Z/5Z)^2. Such a code contains 0, and its inverse
+      image in Z^2 is a radius-one Lee-sphere tiling containing the origin, the
+      m = 1 case of lee_tiling_classification. The paper is unread (closed
+      access) [to check]. Metadata checked against Crossref.
     author_endorsement: not-contacted
   - title: "Classificação dos códigos perfeitos bidimensionais na métrica de Lee"
     authors:
@@ -373,6 +368,473 @@ sources:
       authors' open copy; the reference [16] holding the uniqueness proof is
       unread [to check]. Not cited by the companion paper.
 
+  - title: "Mathematische Unterhaltungen und Spiele"
+    authors:
+      - "Wilhelm Ahrens"
+    id: "https://archive.org/details/mathematischeun01ahregoog"
+    type: book
+    location: "B. G. Teubner, Leipzig, second edition, volume 1 (1910), chapter IX, section 5, table on page 233"
+    relationship: independently-proves
+    note: >-
+      Read in the archive.org copy of the second edition (1910): the table of
+      solution counts gives 2 for both the queens problem and "das
+      Hertzsprungsche Problem" at n = 4, and the text states that up to n = 4
+      the solutions themselves, not only their numbers, coincide for the two
+      problems ("Bis n = 4 einschliesslich sind auch die Loesungen selbst, nicht
+      nur deren Anzahlen, fuer beide Probleme dieselben"). The two four-queens
+      solutions are 2413 and 3142, so this is the m = 1 case of
+      odd_minimal_prolific_classification and odd_minimal_prolific_card_eq_two.
+      The first edition (1901) has no such count; the rest of the book is not
+      recorded as read.
+    author_endorsement: not-contacted
+  - title: "Réponse à la question 4750 (Permutations)"
+    authors:
+      - "Paul Poulet"
+    id: "https://oeis.org/A326411/a326411_1.pdf"
+    type: paper
+    location: "L'Intermédiaire des Mathématiciens 26 (1919), 117-121, page 118, second paragraph, and page 121"
+    relationship: independently-proves
+    note: >-
+      Read in the scan attached to OEIS A326411. Page 118: "Nous voyons que pour
+      n = 4 les permutations 2413 et 3142 repondent a la question, alors que
+      l'auteur affirme qu'il n'en existe pas."; page 121 tabulates P = 2, 14,
+      90, 646, 5242 for n = 4, ..., 8. This is the m = 1 case of
+      odd_minimal_prolific_classification and odd_minimal_prolific_card_eq_two.
+      The rest of the volume is not recorded as read.
+    author_endorsement: not-contacted
+  - title: "The Degree-Diameter Problem for Several Varieties of Cayley Graphs I: The Abelian Case"
+    authors:
+      - "Randall Dougherty"
+      - "Vance Faber"
+    id: "https://doi.org/10.1137/s0895480100372899"
+    type: paper
+    location: "SIAM Journal on Discrete Mathematics 17(3) (2004), 478-519, paragraph after Theorem 11"
+    relationship: independently-proves
+    note: >-
+      Read in arXiv:math/9412223v2 (page 13, after Theorem 11): "It is easy to
+      see that the lattice tiling of Z2 by Sk, or of R2 by the Aztec diamond, is
+      unique except for a possible reflection about the line x = y". This is the
+      lattice case of lee_tiling_classification for every radius, stated without
+      proof; the compared theorem drops the lattice hypothesis. The rest of the
+      paper is not recorded as read.
+    author_endorsement: not-contacted
+  - title: "Characterizing r-perfect codes in direct products of two and three cycles"
+    authors:
+      - "Janja Jerebic"
+      - "Sandi Klavžar"
+      - "Simon Špacapan"
+    id: "https://doi.org/10.1016/j.ipl.2004.12.010"
+    type: paper
+    location: "Information Processing Letters 94(1) (2005), 1-6, Theorem 6"
+    relationship: independently-proves
+    note: >-
+      Read in the authors' scan (users.fmf.uni-lj.si), Theorem 6, page 4: a
+      component of the direct product of two cycles of lengths m and n "contains
+      an r-perfect code P if and only if m and n are each a multiple of (r +
+      1)^2 + r^2. Moreover, if (i, j) is in P then either P = Pij(i + s, j + 1)
+      or P = Pij(i + 1, j + s).", two mirror families. The direct product of two
+      cycles is locally the plane grid rotated by 45 degrees, so this is the
+      torus (periodic) case of lee_tiling_classification. The rest of the paper
+      is not recorded as read.
+    author_endorsement: not-contacted
+  - title: "Gaussian Graphs: Applications to Interconnection Networks and Coding Theory"
+    authors:
+      - "Miquel Moretó Planas"
+    id: "https://people.ac.upc.edu/mmoreto/papers/Moreto-PFC2005.pdf"
+    type: other
+    location: "Master's thesis, Universitat Politecnica de Catalunya, 2005, chapter 4, Theorem 42, page 66"
+    relationship: independently-proves
+    note: >-
+      Read: "Theorem 42 Let alpha = a + bi and t a positive integer. If there
+      exists a perfect t-error correcting ideal code C of length 1 over
+      Z[i]alpha, then it must be the group generated by t + (t + 1)i or t - (t +
+      1)i." An ideal code lifts to a lattice tiling of Z^2 by Lee spheres of
+      radius t, so this is the lattice case of lee_tiling_classification, with
+      the two mirror generators. The rest of the thesis is not recorded as read.
+    author_endorsement: not-contacted
+  - title: "Optimal Interleaving on Tori"
+    authors:
+      - "Anxiao (Andrew) Jiang"
+      - "Matthew Cook"
+      - "Jehoshua Bruck"
+    id: "https://doi.org/10.1137/040618655"
+    type: paper
+    location: "SIAM Journal on Discrete Mathematics 20(4) (2006), 841-879, Section II.B, Construction 2.1 and Theorem 4"
+    relationship: independently-proves
+    note: >-
+      Read in the Caltech technical report version (ETR059, page 14):
+      Construction 2.1 centres the radius-m spheres of a perfect packing at (i(m
+      + 1) - jm, im + j(m + 1)) modulo the torus sides, up to horizontal and
+      vertical shifts and a vertical reversal, and "Theorem 4: Construction 2.1
+      is the complete set of perfect sphere packing constructions." This is the
+      torus case of lee_tiling_classification. The journal version and the rest
+      of the report are not recorded as read.
+    author_endorsement: not-contacted
+  - title: "Perfect Dominating Sets in the Cartesian Products of Prime Cycles"
+    authors:
+      - "Hamed Hatami"
+      - "Pooya Hatami"
+    id: "https://doi.org/10.37236/1009"
+    type: paper
+    location: "The Electronic Journal of Combinatorics 14(1) (2007), Remark 3, with Question 1 and form (1)"
+    relationship: independently-proves
+    note: >-
+      Read: Question 1 (page 5) asks, for prime 2n + 1, whether the
+      n-dimensional torus with side 2n + 1 has perfect dominating sets not of
+      the lattice form (1) (page 2), and Remark 3 (page 6) states, without
+      proof, "For n = 2, 3 the answer to Question 1 is negative." At n = 2 this
+      is the five-by-five torus case of lee_tiling_classification at m = 1. The
+      rest of the note is not recorded as read.
+    author_endorsement: not-contacted
+  - title: "On Resource Placement in Gaussian and EJ Interconnection Networks"
+    authors:
+      - "Mary Flahive"
+      - "Bella Bose"
+    id: "https://doi.org/10.1109/tc.2011.254"
+    type: paper
+    location: "IEEE Transactions on Computers 62(3) (2013), 623-626, Gaussian case of the classification of perfect resource placements"
+    relationship: independently-proves
+    note: >-
+      Albader (arXiv:2606.17527v1, Section 2, page 3), read, writes: "Theorem 1
+      (Gaussian case of Mary-Bose classification [1]). [...] Then G_alpha has a
+      perfect t-dominating set exactly in the canonical divisibility cases,
+      generated by associates of t + (t + 1)i. In these cases the resource set
+      is a translate of the corresponding ideal placement.", where [1] is this
+      paper. That is the Gaussian-network (torus) case of
+      lee_tiling_classification. Flahive and Bose's paper itself is unread: the
+      IEEE site refuses this client in robots.txt [to check]. Metadata checked
+      against Crossref.
+    author_endorsement: not-contacted
+  - title: "A generalization of Lee codes"
+    authors:
+      - "C. Araujo"
+      - "I. Dejter"
+      - "P. Horak"
+    id: "https://doi.org/10.1007/s10623-012-9666-6"
+    type: paper
+    location: "Designs, Codes and Cryptography 70(1-2) (2014), 77-90, Theorem 6"
+    relationship: independently-proves
+    note: >-
+      Read in arXiv:1210.5863v3 (page 7): "The number of non-congruent
+      lattice-like PLC(n, 1) codes equals the number of Abelian groups of order
+      2n + 1". At n = 2 there is one such group, so one lattice-like radius-one
+      code up to congruence: the lattice case of lee_tiling_classification at m
+      = 1, whose two centre sets are mirror images. The rest of the paper is not
+      recorded as read.
+    author_endorsement: not-contacted
+  - title: "(a,b)-rectangle patterns in permutations and words"
+    authors:
+      - "Sergey Kitaev"
+      - "Jeffrey Remmel"
+    id: "https://doi.org/10.1016/j.dam.2014.12.024"
+    type: paper
+    location: "Discrete Applied Mathematics 186 (2015), 128-146, Section 1, table of statistics on the permutations of length four"
+    relationship: independently-proves
+    note: >-
+      Read in arXiv:1304.4286v1 (page 4): the table of the 24 permutations of
+      length four gives 1-box value 0 only for 2413 and 3142, and the text notes
+      that "for any permutation sigma in Sn, 1-box(sigma) = 0 if and only if
+      bond(sigma) = 0". This is the m = 1 case of
+      odd_minimal_prolific_classification and odd_minimal_prolific_card_eq_two.
+      The rest of the paper is not recorded as read.
+    author_endorsement: not-contacted
+  - title: "High-Fugacity Expansion, Lee–Yang Zeros, and Order–Disorder Transitions in Hard-Core Lattice Systems"
+    authors:
+      - "Ian Jauslin"
+      - "Joel L. Lebowitz"
+    id: "https://doi.org/10.1007/s00220-018-3269-7"
+    type: paper
+    location: "Communications in Mathematical Physics 364(2) (2018), 655-682, Section 2, Example 2"
+    relationship: independently-proves
+    note: >-
+      Read in arXiv:1708.01912v3 (page 10), for the hard-cross model on Z^2:
+      "There are 10 perfect coverings (see figure 2.2): L1 = {(nx + 2ny, 2nx -
+      ny)}, L2 = {(-nx + 2ny, 2nx + ny)}", the two mirror lattices and their
+      five translates each. Restricted to coverings containing the origin, that
+      is lee_tiling_classification at m = 1. The rest of the paper is not
+      recorded as read.
+    author_endorsement: not-contacted
+  - title: "Cyclotomic graphs and perfect codes"
+    authors:
+      - "Sanming Zhou"
+    id: "https://doi.org/10.1016/j.jpaa.2018.05.007"
+    type: paper
+    location: "Journal of Pure and Applied Algebra 223(3) (2019), 931-947, Section 4, Theorem 4.5 and Remark 4.6"
+    relationship: independently-proves
+    note: >-
+      Read in arXiv:1502.03272v4 (page 10): "Theorem 4.5. [...] Then
+      (beta)/(alpha) is a perfect t-code in G_alpha if and only if beta is an
+      associate of t + (t + 1)i or t - (t + 1)i." Ideal codes in Gaussian graphs
+      lift to lattice tilings of Z^2 by Lee spheres of radius t, so this is the
+      lattice (ideal) case of lee_tiling_classification, with the two mirror
+      generators. The rest of the paper is not recorded as read.
+    author_endorsement: not-contacted
+  - title: "On the poset of non-attacking king permutations"
+    authors:
+      - "Eli Bagno"
+      - "Estrella Eisenberg"
+      - "Shulamit Reches"
+      - "Moriah Sigron"
+    id: "https://doi.org/10.1016/j.ejc.2020.103119"
+    type: paper
+    location: "European Journal of Combinatorics 87 (2020), Section 1"
+    relationship: independently-proves
+    note: >-
+      Read in arXiv:1905.02387v2 (page 1): "K1 = S1, K2 = K3 = empty, K4 =
+      {[3142], [2413]}. Observe that Kn is closed under the inverse action [...]
+      and also under the reverse action", where Kn is the set of non-attacking
+      king permutations of length n. This is the m = 1 case of
+      odd_minimal_prolific_classification, odd_minimal_prolific_card_eq_two and
+      odd_minimal_prolific_dihedral_orbit. The rest of the paper is not recorded
+      as read.
+    author_endorsement: not-contacted
+  - title: "The Maximal Hard-Core Model as a Recoverable System: Gibbs Measures and Phase Coexistence"
+    authors:
+      - "Geyang Wang"
+      - "Alexander Barg"
+      - "Navin Kashyap"
+    id: "https://doi.org/10.1007/s10955-026-03716-w"
+    type: paper
+    location: "Journal of Statistical Physics 193(11) (2026), Section 6, Theorem 6.1"
+    relationship: independently-proves
+    note: >-
+      Read in arXiv:2510.19746v2 (page 23): "There are exactly 2 periodic
+      configurations with density 1/2 and exactly 10 periodic configurations
+      with density 1/5". The ten density-1/5 configurations are the two mirror
+      cross lattices and their translates, so this is the periodic case of
+      lee_tiling_classification at m = 1. The rest of the paper is not recorded
+      as read.
+    author_endorsement: not-contacted
+  - title: "OEIS A002464"
+    authors:
+      - "N. J. A. Sloane"
+    id: "https://oeis.org/A002464"
+    type: other
+    location: "The On-Line Encyclopedia of Integer Sequences, entry A002464, Example"
+    relationship: background
+    note: >-
+      Read: "Hertzsprung's problem: ways to arrange n non-attacking kings on an
+      n X n board, with 1 in each row and column. Also number of permutations of
+      length n without rising or falling successions." with the example "a(4) =
+      2: 2413, 3142." It tabulates the m = 1 count of
+      odd_minimal_prolific_card_eq_two, and its references list the formulas of
+      Kaplansky, Riordan, Abramson and Moser, Robbins, Tanny and others for the
+      whole sequence.
+    author_endorsement: not-contacted
+  - title: "Symbolic solution of certain problems in permutations"
+    authors:
+      - "Irving Kaplansky"
+    id: "https://doi.org/10.1090/s0002-9904-1944-08261-x"
+    type: paper
+    location: "Bulletin of the American Mathematical Society 50(12) (1944), 906-914, pages 911 to 913"
+    relationship: background
+    note: >-
+      Not read: ams.org refuses this client in robots.txt [to check]. Reported
+      by both prior-work census seats: it poses the n-kings problem and gives a
+      symbolic formula for the number of permutations without rising or falling
+      successions, whose value at n = 4 is the 2 of
+      odd_minimal_prolific_card_eq_two at m = 1.
+    author_endorsement: not-contacted
+  - title: "Perfect Codes in the Lee Metric and the Packing of Polyominoes"
+    authors:
+      - "Solomon W. Golomb"
+      - "Lloyd R. Welch"
+    id: "https://doi.org/10.1137/0118025"
+    type: paper
+    location: "SIAM Journal on Applied Mathematics 18(2) (1970), 302-317, Theorems 1 and 3"
+    relationship: background
+    note: >-
+      Not read: the SIAM site answered with a bot challenge (HTTP 403) [to
+      check]. Reported by the prior-work census seats: Theorem 1 gives perfect
+      Lee codes (tilings by Lee spheres) in the plane for every radius and
+      Theorem 3 radius one in every dimension; this may be existence only,
+      without the uniqueness of lee_tiling_classification.
+    author_endorsement: not-contacted
+  - title: "Tiling with sets of polyominoes"
+    authors:
+      - "Solomon W. Golomb"
+    id: "https://doi.org/10.1016/s0021-9800(70)80055-2"
+    type: paper
+    location: "Journal of Combinatorial Theory 9(1) (1970), 60-71, tilings of the plane by the cross pentomino"
+    relationship: background
+    note: >-
+      Not read: ScienceDirect answered HTTP 403 [to check]. Reported by a
+      prior-work census seat as describing the tiling of the plane by the cross
+      pentomino, the m = 1 case of lee_tiling_classification; whether it proves
+      uniqueness is not known here.
+    author_endorsement: not-contacted
+  - title: "Phase transition in a lattice gas with third nearest neighbour exclusion on a square lattice"
+    authors:
+      - "O J Heilmann"
+      - "E Praestgaard"
+    id: "https://doi.org/10.1088/0305-4470/7/15/017"
+    type: paper
+    location: "Journal of Physics A: Mathematical, Nuclear and General 7(15) (1974), 1913-1917, close-packed ground states"
+    relationship: background
+    note: >-
+      Not read: the IOP site refuses this client in robots.txt [to check].
+      Reported by a prior-work census seat, and by Jauslin and Lebowitz (2018),
+      as analysing the hard-cross lattice gas through its ten periodic
+      close-packed ground states, the two mirror cross lattices and their
+      translates: the periodic case of lee_tiling_classification at m = 1.
+    author_endorsement: not-contacted
+  - title: "On mosaics consisting of multidimensional crosses"
+    authors:
+      - "S. Szabó"
+    id: "https://doi.org/10.1007/bf01917533"
+    type: paper
+    location: "Acta Mathematica Academiae Scientiarum Hungaricae 38(1-4) (1981), 191-203, main theorem"
+    relationship: background
+    note: >-
+      Not read: the Springer site refuses this client in robots.txt [to check].
+      Reported by a prior-work census seat: the main theorem shows that every
+      tiling of the plane by crosses is a lattice tiling, which with Molnar
+      (1971) gives lee_tiling_classification at m = 1.
+    author_endorsement: not-contacted
+  - title: "Algebra and Tiling: Homomorphisms in the Service of Geometry"
+    authors:
+      - "Sherman K. Stein"
+      - "Sándor Szabó"
+    id: "https://zbmath.org/?q=an:0930.52003"
+    type: book
+    location: "Carus Mathematical Monographs, Vol. 25, Mathematical Association of America, Washington, DC (ISBN 0-88385-028-1) (1994), chapter 3"
+    relationship: background
+    note: >-
+      Not read: print book [to check]. Reported by a prior-work census seat:
+      chapter 3 (tiling by the semicross and cross) treats tilings by crosses,
+      including the unique plane cross lattice tiling, the lattice case of
+      lee_tiling_classification at m = 1.
+    author_endorsement: not-contacted
+  - title: "The forcing domination number of a graph"
+    authors:
+      - "Gary Chartrand"
+      - "Heather Gavlas"
+      - "Robert C. Vandell"
+      - "Frank Harary"
+    id: "https://zbmath.org/?q=an:0906.05035"
+    type: paper
+    location: "Journal of Combinatorial Mathematics and Combinatorial Computing 25 (1997), 161-174, the five-by-five torus"
+    relationship: background
+    note: >-
+      Not read: print journal with no open copy [to check]. Reported by a
+      prior-work census seat as determining the minimum dominating sets of the
+      product of two 5-cycles, which are perfect: the five-by-five torus case of
+      lee_tiling_classification at m = 1.
+    author_endorsement: not-contacted
+  - title: "Perfect distance-d placements in 3-dimensional tori"
+    authors:
+      - "Bader F. AlBdaiwi"
+      - "Peter Horak"
+    id: "https://zbmath.org/?q=an:1012.68007"
+    type: paper
+    location: "Journal of Combinatorial Mathematics and Combinatorial Computing 43 (2002), 159-174, main theorem"
+    relationship: background
+    note: >-
+      Not read: print journal with no open copy [to check]. Reported by a
+      prior-work census seat as proving that every radius-one Lee tiling is
+      unique up to congruence in dimensions 2 and 3; Horak (Tatra Mt. Math.
+      Publ. 2010, page 40), read, attributes that uniqueness to Horak and
+      AlBdaiwi instead (listed above).
+    author_endorsement: not-contacted
+  - title: "On multiple coverings of the infinite rectangular grid with balls of constant radius"
+    authors:
+      - "Maria A. Axenovich"
+    id: "https://doi.org/10.1016/s0012-365x(02)00744-6"
+    type: paper
+    location: "Discrete Mathematics 268(1-3) (2003), 31-48, Section 3, Theorem 7"
+    relationship: background
+    note: >-
+      Not read: ScienceDirect answered HTTP 403 and the author copy was
+      unreachable [to check]. Reported by a prior-work census seat: Theorem 7
+      and matrix A1 concern coverings of the grid by balls of radius r, whose
+      perfect case is a tiling by Lee spheres (lee_tiling_classification).
+    author_endorsement: not-contacted
+  - title: "Perfect Distance-d Placements in 2D Toroidal Networks"
+    authors:
+      - "Bader F. Albdaiwi"
+      - "Marilynn L. Livingston"
+    id: "https://doi.org/10.1023/b:supe.0000022572.95414.27"
+    type: paper
+    location: "The Journal of Supercomputing 29(1) (2004), 45-57, main characterization theorem"
+    relationship: background
+    note: >-
+      Not read: the Springer site refuses this client in robots.txt [to check].
+      Reported by a prior-work census seat as characterizing the existence and
+      structure of perfect distance-d placements in two-dimensional tori, the
+      torus case of lee_tiling_classification.
+    author_endorsement: not-contacted
+  - title: "Efficient domination in circulant graphs with two chord lengths"
+    authors:
+      - "Nenad Obradović"
+      - "Joseph Peters"
+      - "Goran Ružić"
+    id: "https://doi.org/10.1016/j.ipl.2007.02.004"
+    type: paper
+    location: "Information Processing Letters 102(6) (2007), 253-258, characterization of efficient dominating sets"
+    relationship: background
+    note: >-
+      Not read: ScienceDirect answered HTTP 403 [to check]. Reported by a
+      prior-work census seat as characterizing the efficient dominating sets of
+      4-regular circulant graphs, including C(5k; 1, 2), a torus case of
+      lee_tiling_classification at m = 1.
+    author_endorsement: not-contacted
+  - title: "Perfect codes in direct products of cycles—a complete characterization"
+    authors:
+      - "Janez Žerovnik"
+    id: "https://doi.org/10.1016/j.aam.2007.04.006"
+    type: paper
+    location: "Advances in Applied Mathematics 41(2) (2008), 197-205, abstract"
+    relationship: background
+    note: >-
+      Not read: ScienceDirect answered HTTP 403 [to check]. Reported by a
+      prior-work census seat: it completes the characterization of r-perfect
+      codes in direct products of cycles, whose two-factor case is the torus
+      case of lee_tiling_classification (see Jerebic, Klavzar and Spacapan
+      2005).
+    author_endorsement: not-contacted
+  - title: "Quotients of Gaussian graphs and their application to perfect codes"
+    authors:
+      - "C. Martínez"
+      - "R. Beivide"
+      - "C. Camarero"
+      - "E. Stafford"
+      - "E. M. Gabidulin"
+    id: "https://doi.org/10.1016/j.jsc.2010.03.013"
+    type: paper
+    location: "Journal of Symbolic Computation 45(7) (2010), 813-824, quotient-ring formulation of perfect codes"
+    relationship: background
+    note: >-
+      Not read: ScienceDirect answered HTTP 403 [to check]. Reported by the
+      prior-work census seats as describing the perfect t-codes of Gaussian
+      graphs as the ideals generated by t + (t + 1)i, the lattice case of
+      lee_tiling_classification.
+    author_endorsement: not-contacted
+  - title: "Códigos perfeitos nas métricas de Lee e Chebyshev e iterações de funções de Rédei"
+    authors:
+      - "Claudio Michael Qureshi Valdez"
+    id: "https://doi.org/10.47749/t/unicamp.2015.959438"
+    type: other
+    location: "Ph.D. thesis, IMECC, Universidade Estadual de Campinas (UNICAMP), repository record of 2021 for the thesis of 2015, chapter on two-dimensional perfect Lee codes"
+    relationship: background
+    note: >-
+      Not read: the UNICAMP repository answered HTTP 503 to its robots.txt three
+      times [to check]. Reported by a prior-work census seat as classifying
+      every two-dimensional perfect Lee code as a translate of D_e or its
+      conjugate, expanding Qureshi and Costa (2013, listed above): the torus
+      case of lee_tiling_classification.
+    author_endorsement: not-contacted
+  - title: "Perfect Codes and Related Structures"
+    authors:
+      - "Tuvi Etzion"
+    id: "https://doi.org/10.1142/12823"
+    type: book
+    location: "World Scientific, Singapore (2022), two-dimensional perfect Lee codes"
+    relationship: background
+    note: >-
+      Not read: no open copy of the World Scientific book [to check]. Reported
+      by a prior-work census seat as treating the classification of
+      two-dimensional perfect Lee codes (lee_tiling_classification).
+    author_endorsement: not-contacted
 related_formalizations: []
 
 status:
