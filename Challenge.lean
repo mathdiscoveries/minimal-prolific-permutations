@@ -121,7 +121,7 @@ theorem odd_minimal_prolific_dihedral_orbit (m : ℕ) (hm : 1 ≤ m) :
       permRot90 w₁ = w₁ ∧ permRot90 w₂ = w₂ := by
   sorry
 
-/-- **Lemma 1 (2D Radius-`m` Lee-Sphere Tiling Rigidity):**
+/-- **Lemma 3 (2D Radius-`m` Lee-Sphere Tiling Rigidity):**
 For every `m ≥ 1`, every radius-`m` Lee-sphere tiling `T ⊆ ℤ × ℤ` containing `(0, 0)` equals
 `LambdaPlus m` or `LambdaMinus m`. -/
 theorem lee_tiling_classification (m : ℕ) (hm : 1 ≤ m) (T : Set (ℤ × ℤ))

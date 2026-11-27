@@ -70,14 +70,19 @@ sources:
       - "Bridget Eileen Tenner"
     id: "https://doi.org/10.1016/j.jcta.2017.08.006"
     type: paper
-    location: "Journal of Combinatorial Theory, Series A 153 (2018), 98-121 (arXiv:1608.06931v3), Theorem 2.25, Corollary 4.3, and Conjecture 5.1"
-    relationship: background
+    location: "Journal of Combinatorial Theory, Series A 153 (2018), 98-121 (arXiv:1608.06931v3), Theorem 2.25, Corollary 4.3, Definition 4.1 and Theorem 4.2 (odd k, breadth formulation), and Conjecture 5.1"
+    relationship: independently-proves
     note: >-
-      Establishes that a permutation is k-prolific iff its plot has taxicab
-      breadth >= k + 2 (Theorem 2.25), determines minimal size m(k) =
-      ceil(k^2/2 + 2k + 1) (Theorem 3.4, Corollary 4.3), constructs the modular
-      permutations sigma_k, and poses Conjecture 5.1 (uniqueness up to symmetry
-      for odd k).
+      Definition 4.1 and Theorem 4.2 construct the modular permutations sigma_k
+      and prove that, for odd k, sigma_k has taxicab breadth at least k + 2;
+      the reverse implication of the compared theorem
+      odd_minimal_prolific_classification recovers this for the positive
+      modular permutation. The paper also establishes that a permutation is
+      k-prolific iff its plot has taxicab breadth >= k + 2 (Theorem 2.25) and
+      the minimal size m(k) = ceil(k^2/2 + 2k + 1) (Theorem 3.4, Corollary
+      4.3); these are cited, not formalized, here. It poses Conjecture 5.1
+      (uniqueness up to symmetry for odd k), which the compared theorems
+      settle in the breadth formulation. Read in full (arXiv v3).
   - title: "Permutations all of whose patterns of a given length are distinct"
     authors:
       - "Peter Hegarty"
@@ -94,9 +99,16 @@ sources:
       - "Hans Melissen"
     id: "https://doi.org/10.1287/opre.1060.0317"
     type: paper
-    location: "Operations Research 55(1) (2007), 158-169, Proposition 2"
-    relationship: background
-    note: "Earlier proof of the minimal size m(k) in two-dimensional L_1-maximin Latin hypercube designs."
+    location: "Operations Research 55(1) (2007), 158-169, Constructions 2 and 3 and Proposition 2"
+    relationship: independently-proves
+    note: >-
+      Earlier proof of the minimal size m(k) in two-dimensional L_1-maximin
+      Latin hypercube designs. Its Constructions 2 and 3 show that a
+      permutation plot with separation at least d exists at the smallest
+      admissible size for each d >= 3; the compared theorems
+      odd_minimal_prolific_card_eq_two (odd d) and even_strip_lower_bound
+      (even d) recover that attainment at those sizes. The credit is limited
+      to attainment; the general size formula is cited, not formalized.
   - title: "The minimum Manhattan distance and minimum jump of permutations"
     authors:
       - "Simon R. Blackburn"
@@ -113,9 +125,15 @@ sources:
       - "Dongryul Kim"
     id: "https://doi.org/10.1109/tit.2017.2786675"
     type: paper
-    location: "IEEE Transactions on Information Theory 64(4) (2018), 3048-3061 (arXiv:1706.03589)"
-    relationship: background
-    note: "Survey of Lee-sphere tilings and Golomb-Welch packing rigidity."
+    location: "IEEE Transactions on Information Theory 64(4) (2018), 3048-3061 (arXiv:1706.03589), Section V.B, discussion following Conjecture 44 (n = 2)"
+    relationship: independently-proves
+    note: >-
+      Survey of Lee-sphere tilings and Golomb-Welch packing rigidity; it
+      reports the known classification of two-dimensional (periodic)
+      radius-one Lee-sphere tilings. The compared theorem
+      lee_tiling_classification at m = 1 independently proves the plane
+      case, which includes the periodic one. The survey reports that result
+      rather than originating it.
   - title: "On the existence of complete coverings of Lee spheres"
     authors:
       - "J. Zhang"
@@ -123,11 +141,31 @@ sources:
     id: "https://arxiv.org/abs/2610.34805"
     type: paper
     location: "arXiv:2610.34805 (2026), Theorem III.1"
-    relationship: background
+    relationship: independently-proves
     note: >-
       Concurrent local complete-covering form of 2D radius-m Lee-sphere tiling
-      rigidity; lee_tiling_classification here gives a self-contained Lean 4
-      proof for global plane tilings of Z^2.
+      rigidity. The compared theorem lee_tiling_classification independently
+      recovers the two orientations of Theorem III.1 for complete coverings
+      induced by a tiling of the whole plane; the comparison assumes a global
+      tiling of Z^2 and classifies its centre set, while Theorem III.1 also
+      treats a local covering with no ambient tiling.
+  - title: "Perfect dominating sets"
+    authors:
+      - "Marilynn Livingston"
+      - "Quentin F. Stout"
+    type: paper
+    location: "Congressus Numerantium 79 (1990), 187-203, Section 2.2 and Theorem 2.5"
+    relationship: independently-proves
+    note: >-
+      Section 2.2 characterizes the two-dimensional tori with a perfect
+      distance-d dominating set (Theorem 2.5) and states that each such set is
+      unique up to isomorphism, with the proof in its reference [16]; it also
+      notes that a set on a torus whose periods are both at least 2d + 1
+      unrolls to one on the infinite grid. Lifting such a set to Z^2 and
+      applying the compared theorem lee_tiling_classification (radius m = d)
+      recovers that uniqueness for those tori. Section 2.2 was read in the
+      authors' open copy; the reference [16] holding the uniqueness proof is
+      unread [to check]. Not cited by the companion paper.
 
 related_formalizations: []
 
