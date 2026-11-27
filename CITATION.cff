@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+type: software
+message: "If you use or cite this Lean 4 formalization, please cite it using the metadata below."
+title: "Minimal k-Prolific Permutations for Every Odd k: Exact Uniqueness via Lee-Sphere Tilings"
+authors:
+  - family-names: "Hughes"
+    given-names: "Tyler B."
+    orcid: "https://orcid.org/0000-0001-6221-9014"
+date-released: "2026-11-24"
+license: "Apache-2.0"
+repository-code: "https://github.com/mathdiscoveries/minimal-prolific-permutations"
+url: "https://mathdiscoveries.org/results/minimal-prolific-permutations"
