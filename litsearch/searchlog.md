@@ -1,8 +1,22 @@
 # Prior-work reading log
 
-Reads behind the relationships in `formalization.yaml`. Each copy was fetched through the
-literature-search helper after checking the host's robots.txt. No copy was taken from hosts that
-refuse automated clients, from academia.edu, ResearchGate or HAL, or from archive copies of such sites.
+Reads behind the relationships in `formalization.yaml`. The 2026-11-27 copies were fetched through
+the literature-search helper after checking the host's robots.txt; the 2026-11-28 copies are publisher
+PDFs supplied to the lab on request. No copy was taken from hosts that refuse automated clients, from
+academia.edu, ResearchGate or HAL, or from archive copies of such sites.
+
+## 2026-11-28
+
+| Work | Copy read | Read | Finding |
+|---|---|---|---|
+| Flahive and Bose, IEEE Trans. Computers 62 (2013) | publisher PDF (published pagination 623 to 626) | in full; Section 3 checked on the page images | Theorem 2 (page 625) classifies the perfect t-dominating sets of the infinite square grid as translates of the ideals of t + (t + 1)i and (t + 1) + ti, which are LambdaMinus t and LambdaPlus t; Theorem 3 lifts this to Gaussian networks. Credited independently-proves for the classification direction; the old secondhand note (Albader 2026) is replaced. |
+| Zerovnik, Adv. Appl. Math. 41 (2008) | publisher PDF (published pagination 197 to 205) | in full; pages 198 to 204 checked on the page images | Lemma 12 (page 203) and the sentence before Theorem 13 (page 204): every perfect code is equivalent to the canonical one. For two factors and cycle lengths at least 2r + 2 the code lifts to a Lee-sphere tiling of Z^2. Changed from background to independently-proves for that case. |
+
+Changed without a new read, on the reads of 2026-11-27 below: Horak 2010 (Theorem 5, n = 2, Z-tilings),
+Claesson 2022 (the n = 4 example) and Klavzar-Spacapan-Zerovnik 2006 (Lemma 4.4, two factors) are now
+independently-proves, scoped as in their notes, because the compared theorems prove the stated cases.
+The package already credits statements given without proof in the same way (Gardner, Dougherty-Faber
+and Hatami-Hatami).
 
 ## 2026-11-27
 
@@ -18,8 +32,9 @@ refuse automated clients, from academia.edu, ResearchGate or HAL, or from archiv
 Searched without finding a readable copy (archive.org advanced search, public files only; publisher
 and author hosts): Molnar, Rend. Lincei (8) 51 (1971) (archive.org's run ends in 1961; bdim.eu did not
 answer robots.txt); Martin, Polyominoes (1991) (archive.org copy is lending-only); AlBdaiwi, Horak and
-Milazzo, Des. Codes Cryptogr. 52 (2009); Flahive and Bose, IEEE Trans. Computers 62 (2013); Zerovnik,
-Adv. Appl. Math. 41 (2008); Martinez et al., J. Symbolic Comput. 45 (2010).
+Milazzo, Des. Codes Cryptogr. 52 (2009); Flahive and Bose, IEEE Trans. Computers 62 (2013) (read
+2026-11-28, below); Zerovnik, Adv. Appl. Math. 41 (2008) (read 2026-11-28, below); Martinez et al., J.
+Symbolic Comput. 45 (2010).
 
 Notes corrected without a new read, from the blind editorial audit of fbc6cbf: Martinez et al. (2010),
 Theorem 10 gives sufficient constructions only.
