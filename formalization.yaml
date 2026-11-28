@@ -243,25 +243,34 @@ sources:
     authors:
       - "Emil Molnár"
     type: paper
-    location: "Atti della Accademia Nazionale dei Lincei, Rendiconti, Classe di Scienze Fisiche, Matematiche e Naturali, serie 8, 51 (1971), 177-185 (Zbl 0257.05024), main classification specialized to dimension two"
+    location: "Atti della Accademia Nazionale dei Lincei, Rendiconti, Classe di Scienze Fisiche, Matematiche e Naturali, serie 8, 51 (1971), 177-185 (Zbl 0257.05024), Section 4, equation (18), page 184, with its proof on page 185 and Lemma 5 on page 184; dimension two"
     relationship: independently-proves
     note: >-
-      Two read works state this paper's result. Horak and AlBdaiwi (2012, page
-      12, opening of the proof of Theorem 2) write: "Molnar [15] showed that if
-      2n + 1 is a prime then there is only one, up to a congruency, lattice-like
-      tiling of Rn.", where [15] is this paper and the tiles are crosses. Szabo
-      (Acta Math. Acad. Sci. Hungar. 38 (1981), page 191, read in the
-      archive.org scan) gives as "the following theorem of E. MOLNAR [2]": "The
-      number of pairwise non-congruent mosaics of this type and the number of
-      pairwise non-isomorphic Abelian groups of order 2n+1, are equal", for
-      lattice-like cross mosaics joining along entire faces. In dimension two 2n
-      + 1 = 5 is prime, and the two centre sets classified by
-      lee_tiling_classification at m = 1 are mirror images, so they form that
-      one class. The blind cross-family editorial audit located the count in
-      Section 4, equation (18), pages 184 and 185. Molnar's paper itself is
-      unread: no open copy was reachable (bdim.eu did not answer its robots.txt,
-      archive.org's Rendiconti run ends in 1961) [to check]. Metadata checked
-      against zbMATH.
+      Read in full (pages 177 to 185, in Italian with a German summary) in the
+      bdim.eu digitization, read 2026-11-28; pages 177, 178, 180, 184 and 185
+      were checked on the page images. Page 177 defines a lattice mosaic
+      ("mosaico reticolato") as a tiling by crosses whose centres form a
+      lattice; Section 2 (page 178) takes the centres to be a subgroup R of
+      the lattice X of cube centres, and calls two lattice mosaics R and R'
+      identical when a map (5), x' = x_1 f'_1 + ... + x_n f'_n + b' with the
+      f'_i the vectors +-e'_i in some order, carries R onto R'. Section 4
+      (page 184), translated: "Let 2n + 1 = p_1^a_1 p_2^a_2 ... p_s^a_s (p_1,
+      p_2, ..., p_s distinct primes), and let g(a) be the number of
+      (essentially distinct) additive representations of the natural number
+      a. The number of (essentially distinct) lattice mosaics of dimension n
+      is (18) f(n) = g(a_1) g(a_2) ... g(a_s)." The proof (page 185) counts
+      the abelian groups of order 2n + 1 through Lemma 5 (page 184: R and R'
+      are identical if and only if X/R and X'/R' are isomorphic). For n = 2,
+      2n + 1 = 5 is prime and (18) gives f(2) = g(1) = 1. The cross is the
+      radius-one Lee sphere, so a planar lattice mosaic is a radius-one Lee
+      tiling of Z^2 whose centre set is a subgroup; it contains the origin, so
+      lee_tiling_classification at m = 1 makes it LambdaPlus 1 or LambdaMinus
+      1, and the reflection (x, y) -> (-x, y), a map of the form (5), carries
+      one onto the other. The compared theorem thus independently proves that
+      there is at most one planar lattice mosaic up to Molnar's identity; the
+      credit is limited to lattice cross tilings in dimension two, and the
+      existence of the mosaic and the cases n >= 3 are not compared.
+      Metadata checked against zbMATH.
     author_endorsement: not-contacted
   - title: "A new approach towards the Golomb-Welch conjecture"
     authors:

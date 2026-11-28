@@ -1,8 +1,8 @@
 # Prior-work reading log
 
 Reads behind the relationships in `formalization.yaml`. The 2026-11-27 copies were fetched through
-the literature-search helper after checking the host's robots.txt; the 2026-11-28 copies are publisher
-PDFs supplied to the lab on request. No copy was taken from hosts that refuse automated clients, from
+the literature-search helper after checking the host's robots.txt; the 2026-11-28 copies were supplied
+to the lab on request (two publisher PDFs and the bdim.eu digitization of Molnar 1971). No copy was taken from hosts that refuse automated clients, from
 academia.edu, ResearchGate or HAL, or from archive copies of such sites.
 
 ## 2026-11-28
@@ -11,6 +11,7 @@ academia.edu, ResearchGate or HAL, or from archive copies of such sites.
 |---|---|---|---|
 | Flahive and Bose, IEEE Trans. Computers 62 (2013) | publisher PDF (published pagination 623 to 626) | in full; Section 3 checked on the page images | Theorem 2 (page 625) classifies the perfect t-dominating sets of the infinite square grid as translates of the ideals of t + (t + 1)i and (t + 1) + ti, which are LambdaMinus t and LambdaPlus t; Theorem 3 lifts this to Gaussian networks. Credited independently-proves for the classification direction; the old secondhand note (Albader 2026) is replaced. |
 | Zerovnik, Adv. Appl. Math. 41 (2008) | publisher PDF (published pagination 197 to 205) | in full; pages 198 to 204 checked on the page images | Lemma 12 (page 203) and the sentence before Theorem 13 (page 204): every perfect code is equivalent to the canonical one. For two factors and cycle lengths at least 2r + 2 the code lifts to a Lee-sphere tiling of Z^2. Changed from background to independently-proves for that case. |
+| Molnar, Rend. Accad. Naz. Lincei (8) 51 (1971) | bdim.eu digitization (11-page PDF, bdim cover page first; bdim.eu itself did not answer, so the copy came from a 2021 web-archive snapshot of it) | in full (pages 177 to 185); pages 177, 178, 180, 184 and 185 checked on the page images | Equation (18) (page 184) counts the lattice mosaics of crosses in dimension n; at n = 2 it gives one, up to the maps (5) of page 178. The compared theorem proves that there is at most one, so the credit now rests on the primary text, replacing the quotes in Horak-AlBdaiwi 2012 and Szabo 1981. |
 
 Changed without a new read, on the reads of 2026-11-27 below: Horak 2010 (Theorem 5, n = 2, Z-tilings),
 Claesson 2022 (the n = 4 example) and Klavzar-Spacapan-Zerovnik 2006 (Lemma 4.4, two factors) are now
@@ -31,7 +32,7 @@ and Hatami-Hatami).
 
 Searched without finding a readable copy (archive.org advanced search, public files only; publisher
 and author hosts): Molnar, Rend. Lincei (8) 51 (1971) (archive.org's run ends in 1961; bdim.eu did not
-answer robots.txt); Martin, Polyominoes (1991) (archive.org copy is lending-only); AlBdaiwi, Horak and
+answer robots.txt; read 2026-11-28, above); Martin, Polyominoes (1991) (archive.org copy is lending-only); AlBdaiwi, Horak and
 Milazzo, Des. Codes Cryptogr. 52 (2009); Flahive and Bose, IEEE Trans. Computers 62 (2013) (read
 2026-11-28, below); Zerovnik, Adv. Appl. Math. 41 (2008) (read 2026-11-28, below); Martinez et al., J.
 Symbolic Comput. 45 (2010).
